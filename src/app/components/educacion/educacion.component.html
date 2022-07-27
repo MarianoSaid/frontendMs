@@ -1,0 +1,16 @@
+<div class="row">
+    <h1>Educacion</h1>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-11">
+        <ul>
+            <li *ngFor="let educacion of educacionList">
+                <h2>{{educacion.tituloEdu}}-</h2> 
+                <h3>{{educacion.startEdu}}-</h3> 
+                <h3>{{educacion.endEdu}}-</h3> 
+                <h3>Promedio {{educacion.scoreEdu}}-</h3> 
+                <h3>{{educacion.imagenEdu}}</h3> 
+                <p>{{educacion.desEdu}} 
+            </li>
+        </ul>
+    </div>
+</div>
